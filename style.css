@@ -19,7 +19,7 @@
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-position: center;
     background-size: cover; 
-    width: 50%;   
+    width: 80%;   
 }
 .cen
 {   display: flex;
@@ -54,26 +54,50 @@ h1
 .sec2
 { 
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     background-color:ghostwhite;    
 }
 .p
 {
     height: 33%;
+    padding-left: 5%;
+    padding-top: 10%;
 }
 .fieldset
 {   
-    height: 33%;
+    height: auto;
     background-color: white;
+    padding-left: 5%;
+    
 }
 fieldset
 {
     border: none;
-    padding: 75px;
+}
+
+
+
+input[type=text],input[type=password]
+{
+
+    width: 20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    
+}
+input[type=email],input[type=number]
+{
+    width:20%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border-radius: 5px;
 }
 .button
 {
     height: 33%;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 button
 {
